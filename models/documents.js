@@ -24,8 +24,7 @@ const Document = db.define("document", {
     type: Sequelize.TEXT,
     allowNull: false,
   },
-  // Add more fields as needed for your Document table
-  // For example, you can add fields for keywords, categories, etc.
+
   keywords: {
     type: Sequelize.STRING,
   },
